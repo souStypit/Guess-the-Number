@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+body {
+  background-color: rgb(119, 74, 125);
+  margin: 0;
+}
+
+*,
+*:after,
+*::before {
+    box-sizing: border-box;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+
+  color: rgb(214, 203, 155);
+}
+
+.check {
+  margin-bottom: 100px;
+
+  position: relative;
+  background-color: rgb(214, 203, 155);
+
+  border: none;
+  border-radius: 50%;
+  padding: 150px;
+
+  color: rgb(119, 74, 125);
+
+  cursor: pointer;
+}
+
+.check:hover {
+  background-color: rgb(244, 228, 160);
+  transition-duration: .2s;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  top: 40%;
+  left: 0px;
+}
+
+.enter-text {
+  margin: 0;
+
+  color: rgb(214, 203, 155);
+}
+
+.inp_number {
+  width: 7%;
+
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(214, 203, 155);
+
+  color: rgb(119, 74, 125);
+}
+
+.inp_number:focus {
+  outline: none;
+}
+
+aside {
+  position: absolute;
+
+  top: 30%;
+  left: 25px;
+  
+  color: rgb(214, 203, 155);
+}
+
+aside p {
+  margin: 3px;
+}
+
+aside div {
+  text-align: center;
+}
